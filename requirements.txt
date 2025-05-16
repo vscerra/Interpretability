@@ -1,0 +1,14 @@
+# Core requirements for model training and visualization
+numpy>=1.21
+pandas>=1.3
+scikit-learn>=1.0
+matplotlib>=3.4
+jupyterlab>=3.0
+
+# Optional: For ALE, SHAP, and LIME (future notebooks)
+alibi>=0.9.0           # For ALE plots
+shap>=0.41.0           # For SHAP values
+lime>=0.2.0.1          # For local interpretability
+
+# Optional: Better interactive experience in notebooks
+ipython>=7.0
