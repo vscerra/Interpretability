@@ -17,6 +17,14 @@ This repository is designed to help data scientists, machine learning engineers,
   - Insights into marginal effects and potential feature interactions
   - Discussion of assumptions and limitations of PDPs
 
+### 2. `Individual_Conditional_Expectation.ipynb`
+- **Goal**: Visualize and interpret the individual effects of input features on model predictions using **Individual Conditional Expectation (ICE) plots**.
+- **Dataset**: California Housing Dataset (from `sklearn.datasets`)
+- **Model**: Random Forest Regressor
+- **Highlights**:
+  - ICE and PDP visualizations
+  - Insights into contrast between PDP and ICE plots
+
 ### Coming Soon
 - `Accumulated_Local_Effects.ipynb` – ALE plots to address feature correlation biases
 - `Shap_Values.ipynb` – SHAP for local + global model explanations
@@ -45,3 +53,10 @@ To run the notebooks:
    ```bash
    git clone https://github.com/your-username/model-interpretability-explorer.git
    cd model-interpretability-explorer
+
+
+## Contributing
+Contributions are welcome! If you'd like to add new examples, suggest improvements, or report issues, feel free to open a pull request or submit an issue
+
+## License
+MIT License
