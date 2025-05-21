@@ -25,6 +25,13 @@ This repository is designed to help data scientists, machine learning engineers,
   - ICE and PDP visualizations
   - Insights into contrast between PDP and ICE plots
 
+### 3. `SHAP_values.ipynb`
+- **Goal**: Visualize and interpret the global and individual effects of input features on model predictions using **SHAP values**.
+- **Dataset**: Ames Housing Dataset (from `sklearn.datasets`)
+- **Model**: XGBoost Regression
+- **Highlights**:
+  - SHAP visualizations with explanations
+
 ### Coming Soon
 - `Accumulated_Local_Effects.ipynb` – ALE plots to address feature correlation biases
 - `Shap_Values.ipynb` – SHAP for local + global model explanations
